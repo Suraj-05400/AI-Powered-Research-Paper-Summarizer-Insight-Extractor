@@ -44,7 +44,7 @@ def upload_pdf():
     file.save(filename)"""
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
     
     #extracted_text=extract_text_from_pdf("ResearchPaper.pdf")
     #print(extracted_text)    
